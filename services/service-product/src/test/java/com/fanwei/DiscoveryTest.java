@@ -1,14 +1,19 @@
-## Nacos服务发现
-将服务主程序使用@EnableDiscoveryClient注解开启服务发现功能，服务发现的API会被封装为自动化代码
+package com.fanwei;
 
-使用方法主要是使用DiscoveryClient、NacosServiceDiscovery
+import com.alibaba.cloud.nacos.discovery.NacosDiscoveryClient;
+import com.alibaba.cloud.nacos.discovery.NacosServiceDiscovery;
+import com.alibaba.nacos.api.exception.NacosException;
+import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.cloud.client.ServiceInstance;
+import org.springframework.cloud.client.discovery.DiscoveryClient;
 
-获取服务列表“.getServices()”
+import java.util.List;
 
-获取服务实例列表“.getInstances(serviceName)”
-![](./images/cloud-07-01.png)
-编写测试类测试服务发现组件，单元测试类需要和启动类在同一目录下
-```java
+@SpringBootTest
+public class DiscoveryTest {
+
     @Autowired
     DiscoveryClient discoveryClient;
 
@@ -40,7 +45,4 @@
         }
 
     }
-
-
-
-
+}
