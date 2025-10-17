@@ -1,7 +1,7 @@
 *.class
 target/
 *.iml
-.idea/
+*.idea/
 logs/
 .classpath
 .project
