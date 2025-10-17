@@ -10,3 +10,26 @@ logs/
 /target*
 *.log*
 *.lock
+
+/target/
+/.settings
+/.classpath
+/.project
+/target/
+/.externalToolBuilders/
+src/main/webapp/static/js/mobile_compress
+src/main/webapp/static/mobiletpl_compress/workflow
+src/main/webapp/static/css_compress
+/src/main/resources/rebel.xml
+/eteams-base-web.iml
+/.gitattributes
+/target/
+/eteams-base-web.iml
+/bin/
+/target/
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+/.springBeans
