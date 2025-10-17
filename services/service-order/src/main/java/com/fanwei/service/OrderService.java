@@ -1,6 +1,6 @@
 package com.fanwei.service;
 
-import com.fanwei.bean.Order;
+import com.fanwei.order.bean.Order;
 
 public interface OrderService {
     Order createOrder(Long userid, Long productId);

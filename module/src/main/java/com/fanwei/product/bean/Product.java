@@ -1,4 +1,4 @@
-package com.fanwei.bean;
+package com.fanwei.product.bean;
 
 import lombok.Data;
 

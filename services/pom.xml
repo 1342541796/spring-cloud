@@ -41,6 +41,11 @@
             <groupId>com.alibaba.cloud</groupId>
             <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
         </dependency>
+        <dependency>
+            <groupId>com.fanwei</groupId>
+            <artifactId>module</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
         <!-- openfeign -->
 <!--        <dependency>-->
 <!--            <groupId>org.springframework.cloud</groupId>-->

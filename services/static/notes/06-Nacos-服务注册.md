@@ -16,6 +16,6 @@
    spring.cloud.nacos.server-addr=127.0.0.1:8848
     ```
 4. 启动微服务
-5. 查看注册中心效果，访问`http://localhost:8848/nacos/`
+5. 查看注册中心效果，访问`http://localhost:8848/nacos/`  
 6. 测试集群模式启动：单机情况下通过改变端口号模拟微服务集群，例如添加 Program arguments 信息为 `--server.port=8001`
 ![img.png](img.png)

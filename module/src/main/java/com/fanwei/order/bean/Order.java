@@ -1,5 +1,6 @@
-package com.fanwei.bean;
+package com.fanwei.order.bean;
 
+import com.fanwei.product.bean.Product;
 import lombok.Data;
 
 import java.math.BigDecimal;

@@ -11,6 +11,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>services</module>
+        <module>module</module>
     </modules>
     <groupId>com.fanwei</groupId>
     <artifactId>spring-cloud</artifactId>
@@ -43,6 +44,15 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
+
+    <dependencies>
+        <!-- lombok -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <scope>annotationProcessor</scope>
+        </dependency>
+    </dependencies>
 
     <build>
         <plugins>
