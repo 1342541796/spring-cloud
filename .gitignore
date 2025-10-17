@@ -2,6 +2,7 @@
 target/
 *.iml
 *.idea/
+*.idea\
 logs/
 .classpath
 .project
@@ -33,3 +34,6 @@ src/main/webapp/static/css_compress
 *.iml
 *.ipr
 /.springBeans
+compiler.xml
+encodings.xml
+vcs.xml
